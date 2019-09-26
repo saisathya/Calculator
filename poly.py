@@ -12,7 +12,7 @@ def n_choose_r(n, r):
 def main():
     n = 0
     while(n >= 0):
-        n = int(input('Enter a number'))
+        n = int(input('Enter a number: '))
         print(get_coef(n))
 
 if __name__ == '__main__':
